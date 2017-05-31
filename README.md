@@ -1,12 +1,11 @@
-## Welcome to GitHub Pages
+### Nahuen Doffo 
+## Pruebas de Java Script
 
-You can use the [editor on GitHub](https://github.com/nahuen89/pruevas/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+repositoria para hacer pruevas de java script
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### para el curso de js
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+espero salga bien
 
 ```markdown
 Syntax highlighted code block
