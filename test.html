@@ -12,11 +12,13 @@
 </head>
 
 <body>
-	<div id="cbutton" class="btn btn-primary cbutton">Click me</div>
-	
+
+	<div class="btn btn-primary cbutton">Click me</div>
+	<!--con query no necesitamos el id="cbutton si usamos la . para ID usamos # " -->
 
 	<script>
-		var ctbutton = document.getElementById("cbutton"); // guardamos en una variable el elemento div para usar propiedades en el
+		// var ctbutton = document.getElementById("cbutton"); guardamos en una variable el elemento div para usar propiedades en el
+		var ctbutton = document.querySelector(".cbutton"); // ahora usamos Query usamos . para indicar que busque en class y no en ID
 		ctbutton.addEventListener("click", function (){  // detectamos cuando es cliqueado y corremos una funcion
 
 			alert("cliqueado");
