@@ -12,11 +12,18 @@
 </head>
 
 <body>
-	<div class="btn btn-primary cbutton">Click me</div>
+	<div id="cbutton" class="btn btn-primary cbutton">Click me</div>
 	
 
 	<script>
-	
+		var ctbutton = document.getElementById("cbutton"); // guardamos en una variable el elemento div para usar propiedades en el
+		ctbutton.addEventListener("click", function (){  // detectamos cuando es cliqueado y corremos una funcion
+
+			alert("cliqueado");
+
+		});
+
+
 	</script>
 	
 </body>
