@@ -13,17 +13,20 @@
 
 <body>
 
-	<div class="btn btn-primary cbutton">Click me</div>
+	<div class="btn btn-primary cbutton">Click Me</div>
+	<div class="btn btn-primary cbutton">Click Me 2</div>
+	<div class="btn btn-primary cbutton">Click Me 3</div>
 	<!--con query no necesitamos el id="cbutton si usamos la . para ID usamos # " -->
 
 	<script>
-		// var ctbutton = document.getElementById("cbutton"); guardamos en una variable el elemento div para usar propiedades en el
-		var ctbutton = document.querySelector(".cbutton"); // ahora usamos Query usamos . para indicar que busque en class y no en ID
-		ctbutton.addEventListener("click", function (){  // detectamos cuando es cliqueado y corremos una funcion
-
-			alert("cliqueado");
-
-		});
+		var ctbutton = document.getElementsByClassName("cbutton"); //guardamos en una variable el elemento div para usar propiedades en el
+		//var ctbutton = document.querySelector(".cbutton");  ahora usamos Query usamos . para indicar que busque en class y no en ID
+		console.log(ctbutton.length);
+		for (var i = 0; i < ctbutton.length; i++) {
+			ctbutton[i].addEventListener("click", function () {
+				alert("clicked " + i);
+			});
+		}
 
 
 	</script>
