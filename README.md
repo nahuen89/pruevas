@@ -1,9 +1,8 @@
 # Nahuen Doffo 
-## Pruebas de Java Script
-
+## Pruebas de 
 repositoria para hacer pruevas de java script
 
-### para el curso de js
+### pruvas
 
 espero salga bien
 
